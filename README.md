@@ -22,6 +22,7 @@ Create a React component that functions as a to-do list using the `useState` and
 
    ```bash
    git clone https://github.com/SkyITManagement/coding-challenge-1.git
+   cd coding-challenge-1
    cd my-app
    ```
 

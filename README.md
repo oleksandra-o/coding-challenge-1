@@ -21,7 +21,7 @@ Create a React component that functions as a to-do list using the `useState` and
 1. **Clone the provided repository:**
 
    ```bash
-   git clone https://github.com/joshforlenza/GBCS-CodingChallenge-Frontend.git
+   git clone https://github.com/SkyITManagement/coding-challenge-1.git
    cd my-app
    ```
 
@@ -58,16 +58,12 @@ Create a React component that functions as a to-do list using the `useState` and
 
 Please follow the instructions below to submit your completed coding challenge:
 
-### Zip the Project:
-
-- Once you have completed the coding challenge, zip the entire project directory.
-
 ### Record a Video:
 
 - Record a video (less than 5 minutes) explaining how your code works. Highlight key parts of your implementation and explain your thought process.
 
 ### Send Your Submission:
 
-- Email the .zip file of your project and the video to [hr@gbcsgroup.com](mailto:hr@gbcsgroup.com) with the subject line "GBCS Frontend Coding Challenge Submission - [Your Name]".
+- Please use this google forms link to submit your video: https://forms.gle/vUxEJ3vzAsH3qTaUA
 
 Thank you for participating in our coding challenge. We look forward to reviewing your submission!

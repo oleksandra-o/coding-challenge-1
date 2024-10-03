@@ -1,4 +1,4 @@
-"use client"; // This marks the component as a Client Component
+"use client"; 
 
 import { useState, useEffect } from "react";
 import Head from "next/head";
@@ -15,10 +15,10 @@ const ToDoList = () => {
 
   // Add a new task
   const addTask = () => {
-    if (newTask.trim() === "") return; // Prevent adding empty tasks
+    if (newTask.trim() === "") return; 
     const task = { name: newTask, completed: false };
     setTasks([...tasks, task]); // Add the task to the list
-    setNewTask(""); // Clear the input field after adding
+    setNewTask(""); 
   };
 
   // Toggle task completion status

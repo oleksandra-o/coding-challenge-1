@@ -1,3 +1,5 @@
+"use client"; // This marks the component as a Client Component
+
 import { useState, useEffect } from "react";
 import Head from "next/head";
 

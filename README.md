@@ -1,70 +1,36 @@
-# GBCS Frontend Coding Challenge
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Introduction
+## Getting Started
 
-Welcome to the coding challenge for new software engineer interns at GBCS Group! This challenge is designed to test your ability to work with React hooks within a Next.js application. You will be creating a to-do list component that demonstrates your understanding of state management and side effects in React.
+First, run the development server:
 
-## Coding Challenge
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### Objective
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Create a React component that functions as a to-do list using the `useState` and `useEffect` hooks in a Next.js application.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### Requirements
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-1. **Component:** The component should allow users to add and mark tasks as completed.
-2. **useState Hook:** Use the `useState` hook to manage the state of the to-do list and individual tasks.
-3. **useEffect Hook:** Use the `useEffect` hook to log a message to the console whenever the list of tasks changes.
+## Learn More
 
-### Steps to Complete the Challenge
+To learn more about Next.js, take a look at the following resources:
 
-1. **Clone the provided repository:**
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-   ```bash
-   git clone https://github.com/SkyITManagement/coding-challenge-1.git
-   cd coding-challenge-1
-   cd my-app
-   ```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-2. **Install dependencies:**
+## Deploy on Vercel
 
-   ```bash
-   npm install
-   ```
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-3. **Run the development server:**
-
-   ```bash
-   npm run dev
-   ```
-
-4. **Navigate to the home page:**
-   Open your browser and go to `http://localhost:3000`
-
-5. **Implement the component:**
-   Open `src/app/todo-list/page.tsx` and complete the implementation of the to-do list component as described in the requirements.
-
-### Features to Implement
-
-- **Task Addition:** Users can add new tasks to the list.
-- **Task Completion:** Users can mark tasks as completed.
-- **State Management:** Use `useState` to manage the tasks and the new task input.
-- **Side Effects:** Use `useEffect` to log messages to the console whenever the tasks list changes.
-
-### File to Modify
-
-- `src/app/todo-list/page.tsx`
-
-## Submission Details
-
-Please follow the instructions below to submit your completed coding challenge:
-
-### Record a Video:
-
-- Record a video (less than 5 minutes) explaining how your code works. Highlight key parts of your implementation and explain your thought process.
-
-### Send Your Submission:
-
-- Please use this google forms link to submit your video: https://forms.gle/vUxEJ3vzAsH3qTaUA
-
-Thank you for participating in our coding challenge. We look forward to reviewing your submission!
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

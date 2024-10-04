@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Head from "next/head";
 
 const ToDoList = () => {
-  // State to manage tasks and the new task input
+  // State to manage tasks and new tasks input
   const [tasks, setTasks] = useState<{ name: string; completed: boolean }[]>([]);
   const [newTask, setNewTask] = useState<string>("");
 
@@ -17,7 +17,7 @@ const ToDoList = () => {
   const addTask = () => {
     if (newTask.trim() === "") return; 
     const task = { name: newTask, completed: false };
-    setTasks([...tasks, task]); // Add the task to the list
+    setTasks([...tasks, task]); // Add task to the list
     setNewTask(""); 
   };
 
